@@ -1,9 +1,11 @@
 {
 	"id": "9e63d382-e690-4eb5-b034-ddbb57b50524",
-	"authors": ["bronco"],
-	"origin": "local",
-	"url": "https://github.com/P0nk/Cosmic",
+	"authors": [
+		"Jes7pwn"
+	],
+	"origin": "https://github.com/Jes7pwn/maplestory-amp.git",
+	"url": "https://github.com/Jes7pwn/maplestory-amp",
 	"imagefile": "",
-	"prefix": "JM",
+	"prefix": "",
 	"repotype": "AppTemplates"
 }

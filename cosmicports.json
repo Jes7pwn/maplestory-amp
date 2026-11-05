@@ -1,9 +1,30 @@
 [
     {
         "Protocol": "TCP",
-        "Port": 8484,
+        "Port": 7574,
         "Ref": "LoginPort",
         "Name": "Login Port",
-        "Description": "Login server (bound to 127.0.0.1 by Docker; players come in through playit)"
+        "Description": "Login server (LOGIN_PORT in config.yaml). The playit range tunnel starts here."
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 7575,
+        "Ref": "Channel1Port",
+        "Name": "Channel 1",
+        "Description": "World 1 channel 1"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 7576,
+        "Ref": "Channel2Port",
+        "Name": "Channel 2",
+        "Description": "World 1 channel 2"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 7577,
+        "Ref": "Channel3Port",
+        "Name": "Channel 3",
+        "Description": "World 1 channel 3"
     }
 ]

@@ -1,14 +1,14 @@
 [
     {
-        "DisplayName": "Cosmic Project Folder",
+        "DisplayName": "Java Max Memory (MB)",
         "Category": "MapleStory:sports_esports",
         "Subcategory": "Server:dns:1",
-        "Description": "Folder holding Cosmic's docker-compose.yml. Game settings (rates, worlds, HOST, PUBLIC_PORTS) are in config.yaml there.",
-        "Keywords": "cosmic,docker,compose,folder,path",
-        "FieldName": "ProjectDir",
-        "InputType": "text",
-        "ParamFieldName": "ProjectDir",
-        "DefaultValue": "/home/bronco/cosmic",
+        "Description": "Maximum Java heap for the server. Game settings (rates, worlds, HOST, PUBLIC_PORTS) are in cosmic/config.yaml, which deploy-amp.sh writes from the project's config.yaml.",
+        "Keywords": "memory,ram,heap,java,xmx",
+        "FieldName": "JavaMaxMemory",
+        "InputType": "number",
+        "ParamFieldName": "JavaMaxMemory",
+        "DefaultValue": "3072",
         "EnumValues": {}
     }
 ]
