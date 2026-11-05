@@ -9,4 +9,4 @@ inside AMP's container (cubecoders/ampbase:debian, host networking).
 * Login listens on 7574 and channels on 7575-7577 (world 1, channels 1-3).
 
 Add to AMP under Configuration -> Instance Management -> Configuration Repositories as
-`Jes7pwn/maplestory-amp:main`, then Fetch Latest.
+`(Name)/maplestory-amp:main`, then Fetch Latest.
