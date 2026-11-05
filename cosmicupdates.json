@@ -1,0 +1,18 @@
+[
+    {
+        "UpdateStageName": "Create Instance Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Rebuild Cosmic Docker Image",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/usr/bin/docker",
+        "UpdateSourceArgs": "compose -f \"{{ProjectDir}}/docker-compose.yml\" --project-directory \"{{ProjectDir}}\" build maplestory",
+        "SkipOnFailure": false
+    }
+]

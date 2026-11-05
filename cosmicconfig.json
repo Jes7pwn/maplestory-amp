@@ -1,0 +1,14 @@
+[
+    {
+        "DisplayName": "Cosmic Project Folder",
+        "Category": "MapleStory:sports_esports",
+        "Subcategory": "Server:dns:1",
+        "Description": "Folder holding Cosmic's docker-compose.yml. Game settings (rates, worlds, HOST, PUBLIC_PORTS) are in config.yaml there.",
+        "Keywords": "cosmic,docker,compose,folder,path",
+        "FieldName": "ProjectDir",
+        "InputType": "text",
+        "ParamFieldName": "ProjectDir",
+        "DefaultValue": "/home/bronco/cosmic",
+        "EnumValues": {}
+    }
+]

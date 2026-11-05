@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": 8484,
+        "Ref": "LoginPort",
+        "Name": "Login Port",
+        "Description": "Login server (bound to 127.0.0.1 by Docker; players come in through playit)"
+    }
+]
