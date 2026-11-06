@@ -1,0 +1,14 @@
+[
+    {
+        "DisplayName": "Java Max Memory (MB)",
+        "Category": "MapleStory:sports_esports",
+        "Subcategory": "Server:dns:1",
+        "Description": "Maximum Java heap for the server (Swordie wants 4 GB or more). Tunnel and database settings are in swordie/swordie.env, which deploy-amp.sh writes from the Swordie project's .env.",
+        "Keywords": "memory,ram,heap,java,xmx",
+        "FieldName": "JavaMaxMemory",
+        "InputType": "number",
+        "ParamFieldName": "JavaMaxMemory",
+        "DefaultValue": "6144",
+        "EnumValues": {}
+    }
+]

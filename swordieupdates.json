@@ -1,0 +1,10 @@
+[
+    {
+        "UpdateStageName": "Create Server Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    }
+]
